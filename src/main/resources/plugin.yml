@@ -1,0 +1,15 @@
+author: billofbong
+database: false
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: org.awesomecraft.plugins.monsterspawners.MonsterSpawners
+name: Monster Spawners
+startup: postworld
+url: http://awesomecraft.org/
+version: '1.0'
+commands:
+  MS:
+    description: Spawn a monster spawner of the specified quantity.
+permissions:
+  ms.use:
+    desription: Lets the user use the plugin
+    default: op
